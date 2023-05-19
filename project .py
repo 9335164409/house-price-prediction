@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 app = Flask(__name__)
 
 def load_data():
-   df = pd.read_csv('dataset/house_pricing_dataset.csv')
+   df = pd.read_csv('dataset/house_pricing_dataset1.csv')
    return df
 
 @app.route('/')
