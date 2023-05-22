@@ -61,6 +61,7 @@
 
     .mybutton {
       text-align: center;
+    
     }
 
     body {
@@ -77,46 +78,65 @@
   <div class="row my-5">
     <div class="col-md-8 mx-auto">
       <form method="post">
-        <div class="Bedrooms">
-          <label for="Bedrooms">Bedrooms</label>
-          <input type="number" class="Bedrooms" name="Bedrooms" id="Bedrooms" placeholder=" Enter Number of Bedrooms">
-        </div><br>
-        <div class=" Bathrooms">
-          <label for="bathrooms">Bathrooms</label>
-          <input type="number" class="form-control" name="bathrooms" id="bathrooms" placeholder="Enter number of bathrooms">
-            </div><br>
-        <div class="living">
-          <label for="Square living">Square living</label>
-          <input type="number" class="form-control" name="Square livng" id="Square living" placeholder="Enter number of Square living">
-            </div><br>
-        <div class="Above">
-          <label for="Square Above">Square Above</label>
-          <input type="number" class="Square Above" name="Square Above" id="Square Above" placeholder="Enter the number of Square Above">
-             </div><br>
-        <div class="Basement">
-          <label for="Square Basement">Square Basement</label>
-          <input type="number" class="Square basement" name="Square Basement" id="Square Basement"  placeholder="Enter the number of Square Basement">
-           </div><br>
-        <div class="Grade">
-          <label for="Grade">Grade</label>
-          <input type="number" class="Grade" name="Grade" id="Grade" placeholder="Enter the number of Grade">
-        </div><br>
-        <div class="View">
-          <label for="View">View</label>
-          <input class="View" name="View" id="View" placeholder="Enter the number of View">
-        </div><br>
-        <div class="Latitude">
-          <label for="Latitude">Latitude</label>
-          <input class="Latitude" name="Latitude" id="Latitude" placeholder="Enter the number of Latitude"
-            type="Number">
-        </div><br>
-        <div class="living15">
-          <label for="Square living15">Square living15</label>
-          <input type="Number" class="Square living15" name="Square living15" id="Square living15"
-            placeholder="Enter the number Square living15">
-        </div><br>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="bedrooms" id="bedrooms" placeholder="Number of bedrooms">
+          <label for="bedrooms">Num of Bedrooms</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="bathrooms" id="bathrooms" placeholder="Number of Bathrooms">
+          <label for="bathrooms">Number of Bathrooms</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="Square living" id="Square living" placeholder="Number of Square Living">
+          <label for="living">Number of Square Living</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="Square Above" id="Square Above" placeholder="Number of Square Above">
+          <label for="Square Above">Number of Square Above</label>
+        </div>
+        
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="Square Basement" id="Square Basement" placeholder="Number of Square Basement">
+          <label for="Square Basement">Number of Square Basement</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="Grade" id="Grade" placeholder="Number of Grade">
+          <label for="Grade">Number of Grade</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="View" id="View" placeholder="Number of View">
+          <label for="View">Number of View</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="Latitude" id="Latitude" placeholder="Latitude">
+          <label for="Latitude">Number of Latitude</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="Square living15" id="Square living15" placeholder="Number of Square Living15">
+          <label for="Square living15">Number of Square Living15</label>
+        </div>
         <div class="mybutton">
-          <button class="mybtn">Predict</button>
+          <button type="submit" class="btn btn-primary">Predict</button>
+            </div>
+          </div>
         </div>
       </form>
     </div>

@@ -48,6 +48,7 @@
 
   .mybutton {
     text-align: center;
+     
   }
 
   body {
@@ -63,10 +64,12 @@
   <div class="row my-5">
     <div class="col-md-8 mx-auto">
       <form method="post">
-        <div class="Bedrooms">
-          <label for="Bedrooms">Bedrooms</label>
-          <input type="number" class="Bedrooms" name="Bedrooms" id="Bedrooms" placeholder=" Enter Number of Bedrooms">
-        </div><br>
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control" name="bedrooms" id="bedrooms" placeholder="Number of Bedroom">
+          <label for="bedrooms">No of Bedrooms</label>
+        </div>
         <div class=" Bathrooms">
           <label for="bathrooms">Bathrooms</label>
           <input type="number" class="form-control" name="bathrooms" id="bathrooms"
